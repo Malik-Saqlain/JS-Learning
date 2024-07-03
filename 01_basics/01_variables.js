@@ -5,7 +5,7 @@
    let accountState;
 
 
-// accountId = 23 // not allowed
+// accountId = 2 // not allowed
 
 console.log(accountId);
 
