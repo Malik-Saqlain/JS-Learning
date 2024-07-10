@@ -19,7 +19,7 @@ let age = 26
 // undefined => undefined
 // symbol => unique
 
-// Object
+// OBJECT
 
 console.log(typeof null); // object 
 console.log(typeof undefined); // undefined
