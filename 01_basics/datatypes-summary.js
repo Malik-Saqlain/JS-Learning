@@ -43,9 +43,37 @@ console.log(typeof anotherId);
 
 
 
-//+***************************************************************************************************
+//+****************************************** MEMORY TYPES *********************************************************
 
-//  Stack (Primitive), Heap (Non-Primitive)  
+//  Stack memory (Primitive), Heap memory (Non-Primitive)  
+
+// Stack memory
+
+ let myYoutubeName = "malikSaqlaindotcom"
+
+ let anotherName = myYoutubeName
+ anotherName = "selfThoughtCoder"
+
+ console.log(myYoutubeName);
+ console.log(anotherName);
+
+
+
+//  Heap memory
+
+let userOne = {
+    email: "user1@google.com"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "user2@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
 // Another summary Video: https://youtu.be/sRpW6SFlZrQ?si=LmnngcQ-6dYZDw1r
 
 
