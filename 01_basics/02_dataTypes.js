@@ -25,3 +25,4 @@ console.log(typeof null); // object
 console.log(typeof undefined); // undefined
 
 
+// NOTE: another summary vide for NUll and Undefined dataTypes in JS :   https://www.youtube.com/watch?v=HaQkUYwi_XY
