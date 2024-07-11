@@ -1,28 +1,79 @@
-let score = "33"
+      /**************************************  CONVERSIONS  *********************************************/
+ 
+let age = "Malik"
+// console.log(typeof (age));
+// console.log(typeof age);
 
-// console.log (typeof score);
-// console.log (typeof (score));
-
- let valueNumber = Number(score);
-//  console.log(valueNumber);
-
-
-//  "33" => 33
-//  "33xyz" => NaN
-//  true => 1;  fa  lse => 0
-
-let isLoggedIn = "0"
-let booleanIsLoggedIn = Boolean (isLoggedIn);
-// console.log (booleanIsLoggedIn);
-// console.log(typeof booleanIsLoggedIn);
+// let valueInNumber = Number(age);
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
 
 
-//  1 => true; 0 => false
-//  "" => false
-//  "Malik" => true
+// "27" => 27
+//  "27abc" => NaN
+// true => 1, false => 0
 
+let isLoggedIn = "malik"
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn);
 
-let someNumber = 55
+// 1 => true, 0 => false
+// "" => false
+// "malik" => true
+
+let someNumber = 30
+
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log (typeof stringNumber);
+// console.log(typeof stringNumber);
+
+
+/********************************************  Operations  **********************************************/
+
+// let value = 3
+// let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2**2);
+// console.log(2%2);
+
+// let str1 = "hello"
+// let str2 = " Malik"
+ 
+// let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 3);
+// console.log(1 + 2 + "3");
+// console.log(1 + 2 + "3" + true);
+// console.log(1 + "2"+ 2);
+
+
+// let num1, num2, num3
+// num1 = num2 = num3 = 2 + 2
+
+
+// console.log (+true);
+// console.log (+"");
+
+
+// let gameCounter = 100
+// ++gameCounter;
+// console.log(gameCounter);
+
+// let x = 4
+// const y = x++
+// console.log(x);
+// console.log(y);
+/*  Prefix and Post fix MDN documentation:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment  */
+
+
+
+/*  Conversion Documentation:
+https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion  */
