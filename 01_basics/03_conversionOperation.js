@@ -1,10 +1,10 @@
       /**************************************  CONVERSIONS  *********************************************/
  
-let age = "Malik"
+let age = "malik"
 // console.log(typeof (age));
 // console.log(typeof age);
 
-// let valueInNumber = Number(age);
+// let valueInNumber = Number (age)
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
@@ -13,17 +13,18 @@ let age = "Malik"
 //  "27abc" => NaN
 // true => 1, false => 0
 
-let isLoggedIn = "malik"
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-// console.log(booleanIsLoggedIn);
+let isLogedIn = "malik"
+let booleanIsLogedIn = Boolean (isLogedIn)
+// console.log(booleanIsLogedIn);
 
 // 1 => true, 0 => false
 // "" => false
 // "malik" => true
 
-let someNumber = 30
+let someNumber = 987
 
-let stringNumber = String(someNumber)
+let stringNumber = String (someNumber)
+// console.log(stringNumber);
 // console.log(typeof stringNumber);
 
 
