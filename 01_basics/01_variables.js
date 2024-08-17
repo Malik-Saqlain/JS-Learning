@@ -6,7 +6,7 @@
 
 
 // accountId = 2 // not allowed
-
+ 
 console.log(accountId);
 
 accountEmail = "ma@ma.com"
