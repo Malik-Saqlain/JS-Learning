@@ -1,4 +1,4 @@
-"use strict";  //  this command treat all JS code as newer version of JS.
+"use strict";  //  this command will treat all JS code as newer version of JS.
 
 // alert (3 + 3) // this will not execute in terminal here because we are using nodejs, not browser.
 
@@ -7,7 +7,7 @@ console.log (3 + 3); console.log ("Malik") //do not present like this, code read
 
 let name = "malik"
 let isLogedIn = true
-let age = 26
+let age = 27
 
 // Some dataTypes are below:-ease
 
@@ -18,7 +18,7 @@ let age = 26
 // null => standalone value
 // undefined => undefined
 // symbol => unique
-
+ 
 // OBJECT
 
 console.log(typeof null); // object 
