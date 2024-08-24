@@ -1,12 +1,12 @@
       /**************************************  CONVERSIONS  *********************************************/
  
 let age = "malik"
-// console.log(typeof (age));
-// console.log(typeof age);
+console.log(typeof (age));
+console.log(typeof age);
 
-// let valueInNumber = Number (age)
-// console.log(typeof valueInNumber);
-// console.log(valueInNumber);
+let valueInNumber = Number (age)
+console.log(typeof valueInNumber);
+console.log(valueInNumber);
 
 
 // "27" => 27
@@ -15,7 +15,7 @@ let age = "malik"
 
 let isLogedIn = "malik"
 let booleanIsLogedIn = Boolean (isLogedIn)
-// console.log(booleanIsLogedIn);
+console.log(booleanIsLogedIn);
 
 // 1 => true, 0 => false
 // "" => false
@@ -24,8 +24,8 @@ let booleanIsLogedIn = Boolean (isLogedIn)
 let someNumber = 987
 
 let stringNumber = String (someNumber)
-// console.log(stringNumber);
-// console.log(typeof stringNumber);
+console.log(stringNumber);
+console.log(typeof stringNumber);
 
 
 /********************************************  OPERATIONS **********************************************/
@@ -66,12 +66,12 @@ console.log (+"");
 
 let gameCounter = 100
 ++gameCounter; 
-// console.log(gameCounter);
+console.log(gameCounter);
 
 let x = 4
 const y = x++
-// console.log(x);
-// console.log(y);
+console.log(x);
+console.log(y);
 
 /*  Prefix and Post fix MDN documentation:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment  */
