@@ -1,6 +1,6 @@
-/*  # Primitive: (they are call by value) */
+/*   PRIMITIVE type: (they are call by value) */
 
-// 7 types : String, Number, Boolean, null, undefined, Symbol (it is used to make any value unique), BigInt (it is use to handle large values)
+// 7 types : ,Numbers, String, Number, Boolean, null(means empty), undefined, Symbol (it is used to make any value unique), BigInt (it is use to handle large values)
 
 // NOTE: JavaScript is a dynamically typed language, variable types are determined at runtime rather than at compile time. This means that we don't need to declare the type of a variable explicitly when we define it and we can assign values of different types to the same variable throughout our code.
 
@@ -21,9 +21,9 @@ console.log(id === anotherId);
 // const bigNumber = 1234555667678912345n
 
 
-/*  # Reference: (non-primitive)  */
+/*   REFERENCE type: (non-primitive)  */
 
-//  Array, Objects, Functions.
+//  Array, Objects, Functions, Date, RegExp
 
 const heros = ["ironman", "thor", "loki"];
 
@@ -32,8 +32,17 @@ let myObj = {
     age: 22,
 }
 
+let myObj2 = {
+    score: 28,
+    age: 35, 
+}
+
 const myFunction = function(){
     console.log("Hello world");
+}
+
+const myFunction2 = function(){
+    console.log("Hello again");
 }
 
 console.log(typeof anotherId);
@@ -43,9 +52,10 @@ console.log(typeof anotherId);
 
 
 
+
 //+****************************************** MEMORY TYPES *********************************************************
 
-//  Stack memory (Primitive), Heap memory (Non-Primitive)  
+/*  Stack memory (Primitive), Heap memory (Non-Primitive)  */
 
 // Stack memory
 
@@ -62,8 +72,7 @@ console.log(typeof anotherId);
 //  Heap memory
 
 let userOne = {
-    email: "user1@google.com"
-
+    email: "user1@google.com",
 }
 
 let userTwo = userOne
@@ -74,6 +83,17 @@ console.log(userOne.email);
 console.log(userTwo.email);
 
 
-// Another summary Video: https://youtu.be/sRpW6SFlZrQ?si=LmnngcQ-6dYZDw1r
+let oneUser = {
+    description: "test description",
+    jobTitle:  "business consultant",
+}
 
+let twoUser= oneUser
+
+twoUser.description = "another test description"
+
+console.log(oneUser);
+console.log(twoUser);
+
+// Another summary Video: https://youtu.be/sRpW6SFlZrQ?si=LmnngcQ-6dYZDw1r
 
